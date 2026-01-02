@@ -1,0 +1,17 @@
+spring:
+  liquibase:
+    contexts: dev
+    default-schema: public
+  jpa:
+    properties:
+      hibernate:
+        '[default_schema]': public
+  datasource:
+    url: jdbc:postgresql://localhost:5432/airbnb_db
+    username: codecake
+    password: codecake
+application:
+  auth0:
+    role-landlord-id: "rol_rSyLRkZ1gsnawxY4"
+    role-tenant-id: "rol_Ur6hM5pvWc3q1yn9"
+    
